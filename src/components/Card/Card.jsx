@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Home from '../../Home/Home';
+import Home from '../Home/Home';
 
-const Card = () => {
+
+const Card = ({readTime}) => {
 
     const [cards, setCards] = useState([]);
 
@@ -14,8 +15,7 @@ const Card = () => {
         <div>
             {
                 cards.map((card) =>(
-                    <Home card={card}
-                    ></Home>
+                    <Home key={card.id} readTime={readTime} card={card}></Home>
                 ))
             }
         </div>
