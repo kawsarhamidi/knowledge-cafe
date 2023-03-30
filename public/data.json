@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": 1,
+    "author": "John Smith",
+    "title": "10 Tips for Better Sleep",
+    "blogCoverImg": "https://picsum.photos/500/300?random=1",
+    "authorImg": "https://picsum.photos/50/50?random=1",
+    "readTime": "5 min read",
+    "publishDate": "2022-01-01"
+  },
+  {
+    "id": 2,
+    "author": "Jane Doe",
+    "title": "How to Travel on a Budget",
+    "blogCoverImg": "https://picsum.photos/500/300?random=2",
+    "authorImg": "https://picsum.photos/50/50?random=2",
+    "readTime": "8 min read",
+    "publishDate": "2022-02-15"
+  },
+  {
+    "id": 3,
+    "author": "David Lee",
+    "title": "5 Exercises for Stronger Abs",
+    "blogCoverImg": "https://picsum.photos/500/300?random=3",
+    "authorImg": "https://picsum.photos/50/50?random=3",
+    "readTime": "10 min read",
+    "publishDate": "2022-03-10"
+  },
+  {
+    "id": 4,
+    "author": "Sarah Johnson",
+    "title": "How to Cook a Delicious Meal in 30 Minutes",
+    "blogCoverImg": "https://picsum.photos/500/300?random=4",
+    "authorImg": "https://picsum.photos/50/50?random=4",
+    "readTime": "12 min read",
+    "publishDate": "2022-04-20"
+  }
+]
