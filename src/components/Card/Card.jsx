@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Home from '../Home/Home';
 
 
-const Card = ({readTime}) => {
+const Card = ({handleReadTime}) => {
 
     const [cards, setCards] = useState([]);
 
@@ -15,7 +15,7 @@ const Card = ({readTime}) => {
         <div>
             {
                 cards.map((card) =>(
-                    <Home key={card.id} readTime={readTime} card={card}></Home>
+                    <Home key={card.id} handleReadTime={handleReadTime} card={card}></Home>
                 ))
             }
         </div>

@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark} from '@fortawesome/free-solid-svg-icons'
 
-const Home = ({ card, readTime }) => {
+const Home = ({ card, handleReadTime}) => {
 
     // console.log(card);
 
@@ -20,12 +23,13 @@ const Home = ({ card, readTime }) => {
                         <p>{card.publishDate}</p>
                     </div>
                 </div>
-                <div className="">
+                <div className="flex">
                     <p>{card.readTime} read time</p>
+                    <FontAwesomeIcon icon={faBookmark} />
                 </div>
             </div>
             <h1>{card.title}</h1>
-            <button onClick={()=>readTime(card.readTime)} className="btn btn-link">Mark as read</button>
+            <button onClick={()=>handleReadTime(card.readTime)} className="btn btn-link">Mark as read</button>
         </div>
     );
 };
